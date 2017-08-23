@@ -1,0 +1,119 @@
+@CHARSET "UTF-8";
+
+/* dark blue - #2B2D42 yankees blue : 182B3A
+Light blue #8D99AE  maximum blue green : 41C9BC
+whitISH #EDF2F4  #EAEAEA
+red #EF233C 
+light slate gray  #7B8990
+brillian azure #34ACF4
+ */
+
+/* global section */
+html{
+	box-sizing: border-box;
+}
+
+*, *:BEFORE, *:AFTER {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+}
+
+h1, h2 {
+	font-family: 'Caveat', cursive;
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 80px;
+}
+
+h2 {
+	font-size: 40px;
+	margin-top: 0;
+}
+
+a {
+	color: #CD5C5C;
+}
+
+a:HOVER {
+	color: #DC143C;
+	text-decoration: inherit;
+}
+
+.content-wrap {
+	max-width: 950px;
+	margin: 0 auto;
+	padding: 20px;
+	overflow: hidden;
+}
+
+.col-narrow {
+	width: 30%;
+	float: left;
+	/* border: 1px solid black; */
+}
+
+.col-wide {
+	width: 70%;
+	float: left;
+	/* border: 1px solid black; */
+}
+
+/* Header and footer section */
+header, footer {
+	background: #2B2D42;
+	color: #EAEAEA;
+}
+
+/* header */
+header h1, header h2 {
+	color: #EDF2F4;
+	margin: 0;
+}
+
+header {
+	text-align: center;
+}
+
+
+/* Footer */
+footer {
+	text-align: center;
+}
+
+footer a {
+	padding: 15px;
+	display: inline-block;
+}
+
+/* Table */
+.skillset {
+	padding-right: 15px;
+	font-weight: 600;
+}
+
+/*classes */
+
+.skills {
+	background: #EDF2F4;
+}
+
+.work {
+	background: #B5E0FB;
+}
+
+.certifications {
+	background: #DBDEE0;
+}
+
+.profile-img {
+	width: 250px;
+	/* float: left;
+	margin-right: 50px; */
+	border-radius: 50%;
+}
