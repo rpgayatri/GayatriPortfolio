@@ -25,4 +25,6 @@ local.properties
 
 .classpath
 .project
-/.settings
+
+.DS_Store
+target/
