@@ -22,3 +22,6 @@ local.properties
 
 # sbteclipse plugin
 .target
+
+.classpath
+.project
